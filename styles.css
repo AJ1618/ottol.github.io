@@ -1,0 +1,64 @@
+/*body{
+/*  padding: 25px;
+/*}
+.title {
+	color: #5C6AC4;
+}*/
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container{
+  margin-top: 50px;
+}
+
+button {
+  position: absolute;
+  top:230px;
+  right:50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 60px 60px;
+  grid-auto-rows: 40px;
+  background-color: lightgreen;
+  grid-gap: 15px;
+  padding: 10px;
+}
+
+.grid-container > div {
+background-color: lightyellow;
+font-size: 12px;
+padding: 10px 0;
+}
+
+fieldset { 
+  border: 1px solid blue;
+}
+
+legend {
+  padding: 10px;
+  background:  #5c0b02;
+  color: white;
+}
+
+
+*input[type="checkbox"] {
+    outline: 3px solid black;
+}
+
+
+
